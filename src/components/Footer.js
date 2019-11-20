@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { FaAlignRight } from "react-icons/fa";
 export default class Footer extends Component {
 
   render() {

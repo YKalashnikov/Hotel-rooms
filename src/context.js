@@ -48,6 +48,10 @@ const RoomContext = React.createContext();
   // };
 
   componentDidMount() {
+   /*  axios.get('http://localhost:3002/dataRooms.json')
+    .then(res => {
+        this.setState({rooms: res.data})
+    }) */
     // this.getData();
     let rooms = this.formatData(items);
     let featuredRooms = rooms.filter(room => room.featured === true);

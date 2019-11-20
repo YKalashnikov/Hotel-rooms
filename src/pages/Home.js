@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
-import Footer from "../components/Footer";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
+import Exemp from '/Users/yuriikalashnikov/Desktop/hotel rooms/hotels/src/components/example.js'
+
 const home = () => {
   return (
     <>
@@ -20,7 +21,8 @@ const home = () => {
       </Hero>
       <Services />
       <FeaturedRooms />
-      <Footer/>
+     {/*  <Footer/> */}
+      <Exemp/>
     </>
   );
 };
